@@ -1,0 +1,97 @@
+
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background:  #d19130;
+    padding: 2rem 1rem;
+}
+
+/* Header Styling */
+.header {
+    border-radius: 15px;
+    background: linear-gradient(45deg, #cbf078, #81cf03e8);
+    color: white;
+    text-align: center;
+    padding: 2rem 1rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Grid Container */
+.grid-container {
+    background-color: #d19130;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+    padding: 2rem 1rem;
+    border-radius: 15px;
+    /*width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex: 1;*/
+}
+/* the paragraph*/
+.paragraph{
+    background-color: cornflowerblue;
+    border-radius: 15px;
+    padding:2rem 1rem;
+}
+
+/* Grid Items */
+.grid-item {
+    background-color: #e46161;
+    color: rgb(9, 37, 248);
+    padding: 2rem;
+    border-radius:27% 73% 20% 80% / 89% 20% 80% 11%  ;
+    text-align: center;
+    box-shadow: 4px 6px rgba(228, 3, 131, 0.552);
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.grid-item:hover {
+    color: rgb(254, 86, 3);
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.grid-item a{
+    text-decoration: none;
+    color: rgba(8, 230, 145, 0.89);
+}
+.grid-item img {
+    width: 100%; /* Make the image fit the container */
+    height: auto; /* Maintain aspect ratio */
+/* Footer Styling */
+border-radius:17% 83% 13% 87% / 60% 45% 55% 40% ; 
+}
+.footer {
+    background: #d70505;
+    color: rgb(17, 3, 3);
+    padding:  2rem 1rem;
+    border-radius: 15px;
+}
+.comment{
+    background-color: rgb(222, 12, 241);
+    border-radius: 15px;
+    color: black;
+    box-shadow: 4px 6px rgba(55, 3, 83, 0.99);
+    padding: 2rem 1rem;
+}
+.comment a{
+    text-decoration: none;
+    color: rgb(251, 255, 19);
+}
+.comment :hover{
+    color: darkslategrey;
+    box-shadow:  0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
